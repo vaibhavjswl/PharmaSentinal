@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PharmaSentinal</string>
+
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="register_here">Click to Register</string>
+    <string name="description">will enter later</string>
+    <string name="Emain_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="addmedicine">ADD Medicine</string>
+    <string name="medicinename">Medicine Name</string>
+    <string name="ListMedicines">Available Medicines </string>
+    <string name="usage">Usage</string>
+    <string name="mscrn1">Add Medicine</string>
+    <string name="mscrn2">See All Medicines</string>
+    <string name="mscrn3">Delete Medicines</string>
+    <string name="meden">Medicine Name</string>
+    <string name="medqty">Medicine Quantity</string>
+    <string name="meddat"> Date </string>
+    <string name="medmnth">Month </string>
+    <string name="medyr">Year </string>
+    <string name="back">Go Back </string>
+    <string name="Addmed">Click to add medicine </string>
+    <string name="deletemeden">Enter Medicine Name To Delete </string>
+    <string name="btndeletemed">Click to delete medicine</string>
+    <string name="ListMedexp"> Expired Medicines </string>
+
+
+
+
+
+</resources>

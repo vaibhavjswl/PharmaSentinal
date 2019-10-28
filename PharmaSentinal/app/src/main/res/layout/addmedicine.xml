@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background4"
+    tools:context="com.example.pharmasentinal.RegisterActivity"
+    >
+
+    <TextView
+        android:id="@+id/my_medicine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="@string/addmedicine"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/entrmedname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280sp"
+        android:ems="12"
+        android:hint="@string/meden"
+        android:textStyle="bold"
+        android:inputType="text"
+
+        />
+
+    <EditText
+        android:id="@+id/entermedqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/entrmedname"
+        android:layout_marginTop="15sp"
+        android:ems="12"
+        android:hint="@string/medqty"
+        android:textStyle="bold"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/enterexpdat"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:layout_below="@id/entermedqty"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="80sp"
+        android:hint="@string/meddat"
+        android:textStyle="bold"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/enterexpmnth"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:layout_below="@id/entermedqty"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="10sp"
+        android:layout_toEndOf="@id/enterexpdat"
+        android:hint="@string/medmnth"
+        android:textStyle="bold"
+        android:inputType="number"
+        />
+
+
+
+    <EditText
+        android:id="@+id/enterexpyr"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:layout_below="@id/entermedqty"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="10sp"
+        android:layout_toEndOf="@id/enterexpmnth"
+        android:hint="@string/medyr"
+        android:textStyle="bold"
+        android:inputType="number"
+
+        />
+
+    <Button
+        android:id="@+id/btnAddmed"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_below="@id/enterexpdat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80sp"
+        android:text="@string/Addmed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+
+
+</RelativeLayout>

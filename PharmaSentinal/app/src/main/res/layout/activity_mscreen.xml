@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+    <Button
+        android:id="@+id/mscrnbtn1"
+        android:layout_width="146dp"
+        android:layout_height="131dp"
+        android:text="@string/mscrn1"
+        android:layout_marginTop="200sp"
+        android:layout_marginStart="50sp" />
+
+    <Button
+        android:id="@+id/mscrnbtn2"
+        android:layout_width="146dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="200sp"
+        android:text="@string/mscrn2"
+        android:layout_toEndOf="@id/mscrnbtn1"
+         />
+
+    <Button
+        android:id="@+id/mscrnbtn3"
+        android:layout_width="146dp"
+        android:layout_height="131dp"
+        android:layout_below="@id/mscrnbtn1"
+        android:layout_marginTop="20sp"
+        android:text="@string/mscrn3"
+        android:layout_marginStart="50sp" />
+
+    <Button
+        android:id="@+id/mscrnbtn4"
+        android:layout_width="146dp"
+        android:layout_height="131dp"
+        android:layout_toEndOf="@id/mscrnbtn3"
+        android:layout_below="@id/mscrnbtn2"
+       android:layout_marginTop="20sp"
+        android:text="See Expired Medicines" />
+</RelativeLayout>
